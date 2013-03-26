@@ -16,7 +16,7 @@ else
 		while true
 			do
 			rm -rf 26850.xml
-			wget -q informer.gismeteo.ru/rss/26850.xml
+			wget --no-proxy -q informer.gismeteo.ru/rss/26850.xml
 
 			TIME=`cat ./26850.xml | grep -m1 "Минск:" | tail -n 1`
 			TIME=$(echo $TIME | sed 's/<title>//')
