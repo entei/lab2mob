@@ -7,7 +7,7 @@ if [ "--help" = "$1" ]
 	echo "options:"
 	echo "\t--help,\tshow help"
 else
-	timeout=$(sed -n 's/.*interval *= *\([^ ]*.*\)/\1/p' < ./config.ini)
+	timeout=$(sed -n 's/interval= (*.*\)/\1/p' < ./config.ini)
 	if ping -c1 informer.gismeteo.ru > /dev/null
 		then
 		rm -rf ./temp
