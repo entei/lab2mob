@@ -1,0 +1,51 @@
+<rss xmlns:gismeteo="http://www.gismeteo.ru" version="2.0">
+	<channel>
+		<title>GISMETEO.RU: Погода в России. Точный прогноз погоды (метеопрогноз) на сегодня, завтра, выходные, неделю.</title>
+		<link>http://www.gismeteo.ru</link>
+		<description>Текущая погода и точный прогноз погоды по всему миру</description>
+		<ttl>60</ttl>
+		<image>
+			<title>GISMETEO.RU: Погода в России. Точный прогноз погоды (метеопрогноз) на сегодня, завтра, выходные, неделю.</title>
+			<width>142</width>
+			<height>18</height>
+			<link>http://www.gismeteo.ru</link>
+			<url>http://img.gismeteo.ru/images/gismeteo2.gif</url>
+		</image>
+		<item> 
+			<title>Минск: День 26 Mar, Tue</title>
+			<link>http://www.gismeteo.ru/city/daily/4248/?272302</link> 
+			<description>температура -2..-4 С, давление 741..743 мм рт.ст., ветер Северный, 4 м/с</description> 
+			<category>Погода</category> 
+			<enclosure url="http://img.gismeteo.ru/images/icons/new/d.sun.c1.png" length="2000" type="image/gif" /> 
+			<source url="http://informer.gismeteo.ru/rss/26850.xml">GISMETEO.RU: Погода в г. Минск</source> 
+			<guid>871947</guid> 
+		</item> 
+		<item> 
+			<title>Минск: Вечер 26 Mar, Tue</title>
+			<link>http://www.gismeteo.ru/city/daily/4248/?34819</link> 
+			<description>температура -7..-9 С, давление 741..743 мм рт.ст., ветер Северный, 4 м/с</description> 
+			<category>Погода</category> 
+			<enclosure url="http://img.gismeteo.ru/images/icons/new/d.sun.c1.png" length="2000" type="image/gif" /> 
+			<source url="http://informer.gismeteo.ru/rss/26850.xml">GISMETEO.RU: Погода в г. Минск</source> 
+			<guid>913442</guid> 
+		</item> 
+		<item> 
+			<title>Минск: Ночь 27 Mar, Wed</title>
+			<link>http://www.gismeteo.ru/city/daily/4248/?925284</link> 
+			<description>Пасмурно, температура -7..-9 С, давление 741..743 мм рт.ст., ветер Северный, 4 м/с</description> 
+			<category>Погода</category> 
+			<enclosure url="http://img.gismeteo.ru/images/icons/new/d.sun.c3.png" length="2000" type="image/gif" /> 
+			<source url="http://informer.gismeteo.ru/rss/26850.xml">GISMETEO.RU: Погода в г. Минск</source> 
+			<guid>681455</guid> 
+		</item> 
+		<item> 
+			<title>Минск: Утро 27 Mar, Wed</title>
+			<link>http://www.gismeteo.ru/city/daily/4248/?949591</link> 
+			<description>Пасмурно, температура -5..-7 С, давление 742..744 мм рт.ст., ветер Северный, 4 м/с</description> 
+			<category>Погода</category> 
+			<enclosure url="http://img.gismeteo.ru/images/icons/new/d.sun.c3.png" length="2000" type="image/gif" /> 
+			<source url="http://informer.gismeteo.ru/rss/26850.xml">GISMETEO.RU: Погода в г. Минск</source> 
+			<guid>536737</guid> 
+		</item> 
+	</channel>
+</rss>
